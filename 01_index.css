@@ -1,0 +1,237 @@
+
+* {
+   margin: 0%;
+   padding: 0%;
+   font-family: 'Roboto Mono', monospace;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+
+header {
+   display: flex;
+   justify-content: center;
+}
+
+h1 {
+   padding: 3px 50px 3px;
+   margin: 10px;
+   font-weight: 100;
+   text-align: center;
+}
+
+.container_bio img {
+   margin: 10px;
+   padding: 10px;
+   border: solid 1px;
+   width: 230px;
+   height: 250px
+}
+
+/* .container_bio img:hover {
+   transition: all .3s;
+   width: 240px;
+   height: 260px
+} */
+
+.section_head {
+display: flex;
+justify-content: space-around;
+}
+
+.logo_txt {
+   position: absolute; z-index: 3;
+   top: 300px;
+   filter: none;
+}
+
+body {
+   margin: 0 10% 0 10%;
+   max-width: 1200px;
+   min-width: 700px;
+}
+
+.flov_right {
+   float: right;
+}
+
+.border {
+   border-bottom: solid 1px;
+   border-top: solid 1px;
+   margin: 7px 0 7px;
+   width: 290px;
+   margin-bottom: 10px;
+}
+
+.border:hover {
+   background: linear-gradient(to right, #a8ff78, #78ffd6);
+   font-size: large;
+   transition: all .3s;
+}
+   
+
+.bold {
+   font-weight: 900;
+}
+
+.italic {
+   font-style: italic;
+   border-bottom: solid 1px;
+   border-top: solid 1px;
+}
+
+
+.container {
+   width: 70%;
+   margin: auto;
+}
+
+.box {
+   border: 10px solid rgb(221, 218, 218);
+   padding: 30px 35px;
+   margin: 20px;
+}
+
+h3 {
+   font-weight: lighter;
+   text-align: center;
+   margin-bottom: 20px;
+   /* text-shadow: cornflowerblue 3px 5px; */
+   text-decoration: underline;
+}
+
+.box > ul {
+   margin-left: 5%;
+   line-height: 25px;
+}
+
+.calendar_hours {
+   display: flex;
+   flex-direction: row;
+   justify-content: space-around;
+}
+
+.hours {
+   margin-top:7%;
+}
+
+#s3_3 {
+   margin-bottom: 10px;
+}
+
+#s3_3 span:hover {
+   background: linear-gradient(to right, #12c2e9, #c471ed, #f64f59);
+   transition: all .3s;
+}
+
+
+#green {
+   color: #56ab2f;
+   display: inline;
+}
+
+#red {
+   color: #ff4b2b;
+   display: inline;
+}
+
+.box2 p {
+   margin: 5px;
+}
+
+.calendar {
+   width: 300px;
+   height: 200px;
+   margin-bottom: 20px;
+}
+.calendar p {
+   text-align: center;
+   }
+
+.calendar table {
+   text-align: center;
+   width: 300px;
+   height: 200px;
+}
+
+.calendar table td {
+   border: 1px solid ;
+}
+
+.calendar table .green:hover {
+   background: linear-gradient(to right, #56ab2f, #a8e063);
+   transition: all .2s;
+   color: azure;
+}
+
+.calendar table .red:hover {
+   background: linear-gradient(to right, #ff416c, #ff4b2b);
+   transition: all .2s;
+   color: aliceblue;
+}
+
+.red {
+   color: #ff4b2b;
+   text-decoration: line-through 1px black;
+}
+
+.green {
+   color: #56ab2f;
+   text-decoration: underline 1px black;
+}
+
+.head_courses{
+   display: flex;
+}
+
+.head_courses div{
+   width: 34%;
+   font-weight: bold;
+   margin-left: 5%;
+   margin-bottom: 1%;
+}
+
+.bodu_courses{
+   display: flex;
+}
+
+.bodu_courses div{
+   width: 33%;
+   margin-left: 5%;
+   margin-top: 1%;
+}
+
+ a{
+   color: black;
+}
+
+.box4 nav {
+   display: flex;
+   
+}
+
+.box4 nav div {
+   margin: auto;
+}
+
+.box4 p {
+   text-align: center;
+   margin-top: 5px;
+}
+
+.box4 a {
+   text-decoration: none;
+}
+
+.box4 img {
+   display: block;
+   width: 30px;
+   height: 30px;
+   margin: auto;
+}
+
+.box4 img:hover {
+   transition: all .2s;
+   box-shadow: 5px 5px 5px lightblue;
+   width: 32px;
+   height: 32px;
+}
